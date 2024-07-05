@@ -1,0 +1,30 @@
+#buscar{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+}
+
+#mas{
+    border: none;
+    padding: 45px 50px;
+    border-radius: 50%;
+    color: white;
+    front-size: 50px;
+    background-color: orangered;
+    display: block;
+}
+
+#crear{
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 15px 25px;
+    box-shadow: 10px 10px 15px gray;
+    display: block;
+}
+
+button{
+    font-family:Arial, Helvetica, sans-serif
+}

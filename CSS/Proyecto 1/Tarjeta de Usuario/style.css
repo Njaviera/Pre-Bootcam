@@ -1,0 +1,50 @@
+.contenido{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.relleno{
+    border-radius: 5px 5px 0 0;
+    height: 85px;
+    background-color: aquamarine;
+}
+.libros{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 25px 0 0 35px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.text{
+padding: 0 40px;
+margin-top: 60px;
+}
+
+.name{
+    margin-bottom: 15px;
+    color: black;
+}
+
+.location{
+    margin-bottom: 15px;
+    front-size: large;
+}
+
+.description{
+    margin-bottom: 15px;
+}
+
+.edit{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+}

@@ -1,0 +1,9 @@
+form{
+    width: 60%;
+    border: 50px solid black;
+    /*margin: 50px; */
+    /* margin: 50px 150px; */
+    margin: 50px auto;
+    /*margin: 10px 15px 300px 45px; */
+    padding: 10px 35px;
+}
