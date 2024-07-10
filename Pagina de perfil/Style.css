@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav{
+    height: 75px;
+    background-color: #4d869c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    align-items: center;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+} 
+
+#cerrar{
+    padding: 5px 10px;
+    background-color: rgb(33, 91, 91);
+    border: none;
+    font-size: large;
+    cursor: pointer; 
+}
+
+main{
+    border: 2px solid #cde8e5;
+    height: 900px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    background-color: #cde8e5;
+}
+
+section{
+    border: 2px solid #cde8e5;
+    height: 600px;
+    width: 300px;
+}
+
+.izquierda{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tarjetaUsuario, .educacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 600px;
+    box-shadow:0 3px 3px #eef7fe;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    background-color: #eef7fe;
+}
+
+.barra{
+    background-color: #7ab2b2;
+    border-radius: 5px 5px 0 0 ;
+    height: 85px;
+}
+
+.user{
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 25px 0 0 35px;
+}
+
+.informacion{
+    padding: 0 40px;
+    margin-top: 60px;
+}
+
+.name, .locacion, .descripcion, .titulo, p{
+    color: black;
+    margin-bottom: 15px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.edit{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+}
+
+.derecha{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fotos{
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagen{
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.si, .no{
+    color: #006989;
+    font-size: x-large;
+}
+.era{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+    background-color: #eef7ff;
+}
+
+.tarjetaUsuario, .educacion, .solicitudes, .contactos{
+    border: 2px solid #eef7ff;
+}
+
+.tarjetaUsuario{
+    flex: 2;
+}
+
+.educacion{
+    flex: 1;
+    padding: 10px;
+}
+
+.solicitudes{
+    flex: 3;
+    background-color: #eef7ff;
+    padding: 10px;
+    box-shadow: 0px 1px 3px #eef7ff;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.contactos{
+    flex: 10;
+    background-color: #eef7ff;
+    padding: 10px;
+    box-shadow: 0px 1px 3px #eef7ff;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}

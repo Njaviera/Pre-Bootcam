@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: #4d869c;
+    padding: 20px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.h1{
+    color: white;
+    font-size: 50px;
+}
+
+.todosPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;    /*hace que todos los elementos se separen*/
+    gap: 150px; /*para que era el gap?? */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.poke{
+    width: 200px;
+    height: 200px;
+}
+
+.infoPoke{
+    background-color: antiquewhite;
+    padding: 40px 20px; /* el padding hace que se separen hacia fuera*/
+    border-radius: 10px;
+}
